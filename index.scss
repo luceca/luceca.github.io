@@ -35,8 +35,6 @@
   h1{
     font-family: roboto;
     font-weight: 300;
-    
-    
   }
   @media (min-width: 767px) {
     #navbar{
@@ -52,8 +50,9 @@
       height: 60px;
       display: flex;
       flex-direction: column;
-      position: center;
+      position: sitcky;
       font-family: Roboto;
+      z-index: 3;
     }
   }
   #navbar{
@@ -89,6 +88,7 @@
     width: 100vh; 
     overflow-x: hidden;
     overflow-y: hidden;
+
   }
   .floatbox{
     margin-top: 45vh;
@@ -124,6 +124,13 @@
     max-width: 100%;
     width: 100vw;
     z-index: 0;
+  }
+  .shadow{
+    width: 100vw;
+    -webkit-box-shadow: inset -1px -38px 55px 100px rgba(0,0,0,1);
+    -moz-box-shadow: inset -1px -38px 55px 100px rgba(0,0,0,1);
+    box-shadow: inset -1px -38px 55px 100px rgba(0,0,0,1);
+z-index: 1;
   }
   .bodyHeader{
     padding: 0 0 0 0;
