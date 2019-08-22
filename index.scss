@@ -10,7 +10,6 @@
     margin: 0;
     padding: 0;
     background-color: rgba(245, 245, 245, 1);
-    
     //CUSTOM SCROLLBAR
     /* width */
   ::-webkit-scrollbar {
@@ -29,7 +28,6 @@
   ::-webkit-scrollbar-thumb:hover {
       background: #555; 
   }
-    
   }
   
   h1{
@@ -41,7 +39,6 @@
       z-index: 1;
       width: 100vw;
       height: 50px;
-      background-color: rgb(70, 56, 30);
       position: fixed;
       padding-top: 1em;
       z-index: 1;
@@ -58,7 +55,6 @@
   #navbar{
     width: 100vw;
     height: 50px;
-    background-color: rgba(17, 71, 43, 1);
     position: fixed;
     padding-top: 1em;
     z-index: 1;
@@ -176,7 +172,7 @@ z-index: 1;
     line-height: 20px;
   }
   #socialTiles{
-    padding: 2em 0 2em 0;
+    padding: 4em 4em 4em 4em;
     display: flex;
     justify-content: space-around;
     
@@ -185,9 +181,6 @@ z-index: 1;
     height: 5vw;
   }
   .socialTile{
-    background-color: rgba(235, 235, 235, 1);
-    box-shadow:  0px 4px 8px 0 rgba(0, 0, 0, .2);
-    border: 1px;
     width: 15vw;
   }
   .socLink{
