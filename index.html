@@ -9,7 +9,7 @@
 <body>
   <nav id="navbar" class="navBar">
     <ul id="navList">
-      <li class="navItem"><a href="#welcome-section">About</a></li>
+      <li class="navItem"><a href="#about">About</a></li>
       <li class="navItem"><a href="#projects">Projects</a></li>
       <li class="navItem"><a href="Pages/Photog.html">Photography</a></li>
       <li class="navItem"><a href="#contact">Contact</a></li>
@@ -23,84 +23,94 @@
       <h1 id="introName">Cristian Lucero</h1>
     </div>
   </div>
-  
+
+  <div id="about">
+    <!-- <img id="headshot" src="rsc/MEBITCHbw.png"></img> -->
+  </div> 
+
+
   <div id="projects">
     <h1 id="projectHead" class="bodyHeader">My Projects</h1>
     <div class="project-tiles">
-      <button class="project-tile">
-        <a href="https://codepen.io/SlaysDragons/full/GVYpgJ" target="_blank">
+      <a href="https://codepen.io/SlaysDragons/full/GVYpgJ" target="_blank" class="project-link">
+        <div class="project-tile">
           <img src="https://res.cloudinary.com/slaysdragons/image/upload/v1566497496/Portfolio/Capture.png"
             class="projectThumb">
-        </a>
-        </br>
-        <p class="projectLink">Random Quote Generator</p>
-        </br>
-        <p class="projectDesc">A project that pulls a random quote from a JSON list of 100+ quotes. App will show off
-          quote over a randomly generated gradient background. Offers the ability to tweet displayed quote.</p>
-      </button>
-      <button class="project-tile">
-        <a href="https://codepen.io/SlaysDragons/pen/gyvzrY" target="_blank"> <img
+          </br>
+          <p class="projectHead">Random Quote Generator</p>
+          </br>
+          <p class="projectDesc">A project that pulls a random quote from a JSON list of 100+ quotes. App will show off
+            quote over a randomly generated gradient background. Offers the ability to tweet displayed quote.</p>
+        </div>
+
+      </a>
+      <a href="https://codepen.io/SlaysDragons/pen/gyvzrY" target="_blank" class="project-link">
+        <div class="project-tile"><img
             src="https://res.cloudinary.com/slaysdragons/image/upload/v1566496858/Portfolio/drum.png"
-            class="projectThumb"> </a>
-        </br>
-        <p class="projectLink">Online BeatPad</p>
-        </br>
-        <p class="projectDesc">A little project I started thanks to FreeCodeCamp. An online drum machine that plays drum
-          sounds when you click on individual pads or can be controlled using the appropriate buttons on your keyboard
-        </p>
-      </button>
-      <button class="project-tile">
-        <a href="https://luceca.github.io" target="_blank"> <img
+            class="projectThumb"> </br>
+          <p class="projectHead">Online BeatPad</p>
+          </br>
+          <p class="projectDesc">A little project I started thanks to FreeCodeCamp. An online drum machine that plays
+            drum
+            sounds when you click on individual pads or can be controlled using the appropriate divs on your keyboard
+          </p>
+        </div>
+      </a>
+      <a href="https://luceca.github.io" target="_blank" class="project-link">
+        <div class="project-tile"><img
             src="https://res.cloudinary.com/slaysdragons/image/upload/v1541456000/Portfolio/1WIBUcU.jpg"
-            class="projectThumb"> </a>
-        </br>
-        <p class="projectLink">Portfolio.codepen</p>
-        </br>
-        <p class="projectDesc">My public portfolio/this exact page.
-          Here I showcase my various projects and an example of my skills as a web designer.</p>
-      </button>
-      <button class="project-tile">
-        <a href="https://www.youtube.com/watch?v=CtOkUJK20Yc&feature=youtu.be" target="_blank" class="projectLink">
+            class="projectThumb"></br>
+          <p class="projectHead">Portfolio.codepen</p>
+          </br>
+          <p class="projectDesc">My public portfolio/this exact page.
+            Here I showcase my various projects and an example of my skills as a web designer.</p>
+        </div>
+      </a>
+
+
+      <a href="https://www.youtube.com/watch?v=CtOkUJK20Yc&feature=youtu.be" target="_blank"
+        class="project-link">
+        <div class="project-tile">
           <img src="https://res.cloudinary.com/slaysdragons/image/upload/v1539894438/Portfolio/boss_ico.jpg"
             class="projectThumb">
           </br>
-          </br>
-          Business One Stop Support
-        </a>
+          <p class="projectHead">Business One Stop Support</p>
+          <br>
+          <p class="projectDesc">Video showcasing intranet messaging service built for the San Bernardino City Unified
+            School District.</p>
+        </div>
+      </a>
 
-        <br>
-        <p class="projectDesc">Video showcasing intranet messaging service built for the San Bernardino City Unified
-          School District.</p>
-      </button>
-      <button class="project-tile">
-        <a href="https://codepen.io/SlaysDragons/pen/LgZEOR" target="_blank"> <img
-            src="https://codepen.io/SlaysDragons/pen/LgZEOR/image/large.png" class="projectThumb"> </a>
-        </br>
-        <p class="projectLink">Flutter Tips</p>
-        </br>
-        <p class="projectDesc">Mock documentation page showing off some flutter commands.</p>
-      </button>
+
+      <a href="https://codepen.io/SlaysDragons/pen/LgZEOR" target="_blank" class="project-link">
+        <div class="project-tile"> <img src="https://codepen.io/SlaysDragons/pen/LgZEOR/image/large.png"
+            class="projectThumb"></br>
+          <p class="projectHead">Flutter Tips</p>
+          </br>
+          <p class="projectDesc">Mock documentation page showing off some flutter commands.</p>
+        </div>
+      </a>
 
     </div>
   </div>
 
-  <div id="contact">
-    <h1 id="socialHead" class="bodyHeader">My Pages</h1>
+  <div id="social">
+    <h1 id="socialHead" class="bodyHeader">luceca.social</h1>
     <div id="socialTiles">
-      <button class="socialTile"><a href="https://codepen.io/SlaysDragons/" id="profile-link" class="socialLink"
+      <div class="socialTile"><a href="https://codepen.io/SlaysDragons/" id="profile-link" class="socialLink"
           target="_blank"> <img
             src="https://res.cloudinary.com/slaysdragons/image/upload/v1539937438/Icons/031-computer.png"
-            class="socialBtn"></a></button>
-      <button class="socialTile"><a href="twitter.com/slaysdragons" id="profile-link" class="socialLink"
+            class="socialBtn"></a></div>
+      <div class="socialTile"><a href="http://www.twitter.com/slaysdragons" id="profile-link" class="socialLink"
           target="_blank">
           <img src="https://res.cloudinary.com/slaysdragons/image/upload/v1539937441/Icons/040-twitter.png"
-            class="socialBtn"></a></button>
-      <button class="socialTile"><a href=""></button>
-      <button class="socialTile"><a href="mailto:crisalucero@gmail.com" id="profile-link" class="socialLink"
+            class="socialBtn"></a></div>
+      <div class="socialTile"><a href=""></div>
+      <div class="socialTile"><a href="mailto:crisalucero@gmail.com" id="profile-link" class="socialLink"
           target="_blank"> <img
             src="https://res.cloudinary.com/slaysdragons/image/upload/v1539937436/Icons/021-send.png"
-            class="socialBtn"></a></button>
+            class="socialBtn"></a></div>
     </div>
-
   </div>
+
 </body>
