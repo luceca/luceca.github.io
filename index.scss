@@ -48,7 +48,7 @@ h1 {
     height: 60px;
     display: flex;
     flex-direction: column;
-    position: sitcky;
+    position: sticky;
     font-family: Roboto;
     z-index: 3;
   }
@@ -141,9 +141,13 @@ h1 {
 }
 .bodyHeader {
   padding: 0 0 0 0;
-  margin: 1em 20em 0 1em;
+  margin: 1em 20em 0 0;
   width: 14vw;
   border-bottom: 2px solid rgba(200, 220, 200, 1);
+}
+#projects{
+  width: 80vw;
+  margin: auto;
 }
 .projects-container{
   display: flex;
@@ -164,7 +168,7 @@ h1 {
   padding-top: 0vh;
   background-color: rgba(255, 255, 255, 1);
   overflow-y: hidden;
-  border-radius: 5%;
+  // border-radius: 5%;
 }
 .projectThumb {
   width: 15vw;
